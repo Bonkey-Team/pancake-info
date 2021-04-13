@@ -523,7 +523,7 @@ const PairFields = `
 
 export const PAIRS_CURRENT = gql`
   query pairs {
-    pairs(first: 100, where: { createdAtBlockNumber_gte : 5188030},  orderBy: trackedReserveETH, orderDirection: desc) {
+    pairs(first: 100, where: { createdAtBlockNumber_gte : 5555555 },  orderBy: trackedReserveETH, orderDirection: desc) {
       id
     }
   }
